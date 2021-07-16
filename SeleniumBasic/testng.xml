@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="D:/Training/AT20210607/Selenium/AT20210607_SeleniumBasic/SeleniumBasic/src">
+          name="D:\AT20210607_SeleniumBasic\SeleniumBasic\src">
         <classes>
             <class name="com.training.test.ManagerTest"></class>
         </classes>

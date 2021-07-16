@@ -3,7 +3,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
    
-  <localRepository>D:\Training\AT20210607\Selenium\AT20210607_SeleniumBasic\SeleniumBasic\maven\repo</localRepository>
+  <localRepository>D:\AT20210607_SeleniumBasic\SeleniumBasic\maven\repo</localRepository>
   <interactiveMode>true</interactiveMode>
   <usePluginRegistry>false</usePluginRegistry>
   <offline>false</offline>
