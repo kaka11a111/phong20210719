@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 public class SelectNewStyle {
     public final static String URL = "https://demoqa.com/select-menu";
     public final static String DDL_SELECT_VALUE = "//*[@id=\"react-select-2-input\"]";
-    public final  static String VALUE_SELECT = "//*[@id=\"withOptGroup\"]/div[2]";
+    public final static String VALUE_SELECT = "//*[@id=\"withOptGroup\"]/div[2]";
 
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\SeleniumBasic\\drivers\\chromedriver.exe");

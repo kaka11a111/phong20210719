@@ -10,6 +10,7 @@ public class Manager {
 
     // Object Repository
     private final String LB_MANAGER_ID = "//td[normalize-space()='Manger Id : mgr123']";
+    public final static String LINK_EDIT_CUSTOMER = "/html/body/div[3]/div/ul/li[3]/a";
 
     public Manager(WebDriver driver) {
         this.driver = driver;
@@ -24,5 +25,11 @@ public class Manager {
             return true;
         }
         return false;
+    }
+
+    public EditCustomer clickLinkEditCustomer() throws InterruptedException {
+        WebElement link_edit_customer = driver.findElement(By.xpath(LINK_EDIT_CUSTOMER));
+        link_edit_customer.click();
+        return new EditCustomer(driver);
     }
 }

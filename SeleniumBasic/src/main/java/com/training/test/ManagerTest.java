@@ -20,7 +20,7 @@ public class ManagerTest {
 
     @BeforeTest
     public void Setup() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\SeleniumBasic\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get(URL);
         System.out.println("Navigated to " + URL + " done");
